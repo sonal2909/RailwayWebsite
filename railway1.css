@@ -1,0 +1,551 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: transparent;
+    /* top: 0px; */
+    left: 0px;
+    width: 100%;
+    /* background: rgb(255, 255, 255); */
+    /* box-shadow: 0 2px 0 rgb(0 0 0 / 40%); */
+    
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 38px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.body1
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    /* background: #f2f2f2; */
+    background-image: url(https://images.unsplash.com/photo-1506761422603-f541e9f3731f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.booktrain
+{
+    width: 800px;
+    min-height: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #222;
+    display: flex;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.3);
+}
+
+.content1
+{
+   flex-basis: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.content1 img
+{
+    width: 100%;
+    height: 466px;
+}
+.trainreserve
+{
+    flex-basis: 50%;
+    background: #333;
+    padding: 25px;
+}
+
+.trainreserve h1
+{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.tbox
+{
+    border-radius: 3px;
+    background: transparent;
+    outline: none;
+    border: 1px solid  #ef5555;
+    width: 100%;
+    height: 35px;
+    margin: 30px 0;
+}
+.tbox input
+{
+    background: transparent;
+    width: 90%;
+    outline: none;
+    border: 0;
+    padding-left: 5px;
+    color: white;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+.btn{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: #ef5555;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+}
+@media screen and  (max-width: 768px){
+    .booktrain
+    {
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    .container
+    {
+        background-color: whitesmoke;
+    }
+}
+
+ .body2
+{
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://images.unsplash.com/photo-1598214886806-c87b84b7078b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+} 
+.body2 .mealscontent
+{
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px -5px 11px rgb(255 255 255 / 50%);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.card .pic
+{
+    height: 190px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.pic img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.content
+{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.explorepackages, .browsemeals
+{
+   align-items: center;
+   width: 100%;
+   border-radius: 5px;
+}
+
+.mealsinfo
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1
+{
+    width: 100%;
+    text-align: center;
+}
+
+.servicecontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicecontainer .servicebox
+{
+    position: relative;
+    width: 350px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden ;
+    text-align: center;
+}
+
+.servicecontainer .servicebox .icon
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.servicecontainer .servicebox:nth-child(1) .icon
+{
+    box-shadow: 0 0 0 0 #cc2059;
+    background: #cc2059;
+}
+.servicecontainer .servicebox:nth-child(1):hover .icon
+{
+    box-shadow: 0 0 0 400px #cc2059;
+    background: #cc2059;
+}
+.servicecontainer .servicebox:nth-child(2) .icon
+{
+    box-shadow: 0 0 0 0 #23a828;
+    background: #23a828;
+}
+.servicecontainer .servicebox:nth-child(2):hover .icon
+{
+    box-shadow: 0 0 0 400px #23a828;
+    background: #23a828;
+}
+.servicecontainer .servicebox:nth-child(3) .icon
+{
+    box-shadow: 0 0 0 0 #1b71b8;
+    background: #1b71b8;
+}
+.servicecontainer .servicebox:nth-child(3):hover .icon
+{
+    box-shadow: 0 0 0 400px #1b71b8;
+    background: #1b71b8;
+}
+
+.servicecontainer .servicebox:nth-child(4) .icon
+{
+    box-shadow: 0 0 0 0 #b81b1b;
+    background: #b81b1b;
+}
+.servicecontainer .servicebox:nth-child(4):hover .icon
+{
+    box-shadow: 0 0 0 400px #b81b1b;
+    background: #b81b1b;
+}
+
+.servicecontainer .servicebox:nth-child(5) .icon
+{
+    box-shadow: 0 0 0 0 #7e17a7;
+    background: #7e17a7;
+}
+.servicecontainer .servicebox:nth-child(5):hover .icon
+{
+    box-shadow: 0 0 0 400px #7e17a7;
+    background: #7e17a7;
+}
+
+.servicecontainer .servicebox:nth-child(6) .icon
+{
+    box-shadow: 0 0 0 0 #b8791b;
+    background: #b8791b;
+}
+.servicecontainer .servicebox:nth-child(6):hover .icon
+{
+    box-shadow: 0 0 0 400px #b8791b;
+    background: #b8791b;
+}
+
+.servicecontainer .servicebox .servicecontent
+{
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.servicecontainer .servicebox:before
+{
+   content: '';
+   width: 80%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: rgba(255,255,255,.2);
+   z-index: 2;
+}
+
+
+.servicecontainer .servicebox:hover .servicecontent
+{
+    color: #fff;
+}
+
+.servicecontainer .servicebox:hover .servicecontent h3{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.servicecontainer .servicebox .servicecontent a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.body5
+{
+    position: relative;
+    /* min-height: 100vh; */
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body5 .contactcontent
+{
+    max-width: 800px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.body5 .contactcontent h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.body5 .contactcontent p{
+    font-weight: 300;
+    color: #fff;
+}
+
+.contactcontainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactcontainer .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactcontainer .contactinfo .contactbox
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactcontainer .contactinfo .contactbox .contacticon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contactcontainer .contactinfo .contactbox .contacttext
+{
+    /* display: flex; */
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactcontainer .contactinfo .contactbox .contacttext h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactform
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactform h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input, .contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactform .inputbox input:focus ~ span
+
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+.contactform .inputbox input:valid ~ span
+
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+.contactform .inputbox textarea:focus ~ span
+
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+.contactform .inputbox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #1f383b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px)
+{
+    .body5{
+        padding: 50px;
+    }
+    .contactcontainer
+    {
+        flex-direction: column;
+    }
+    .contactcontainer .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+}
